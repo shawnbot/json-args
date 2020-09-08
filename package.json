@@ -1,0 +1,17 @@
+{
+  "name": "json-args",
+  "version": "0.0.1",
+  "description": "Use command line arguments to generate JSON",
+  "bin": {
+    "json-args": "cli.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Shawn Allen",
+  "license": "MIT",
+  "dependencies": {
+    "yargs": "^15.4.1"
+  }
+}
