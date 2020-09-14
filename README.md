@@ -33,6 +33,9 @@ $ npx json-args --what-ever=never
     
 You can process and further manipulate the output with other JSON-friendly CLI tools like [fx] and [jq].
 
+## See also
+[@toolia/json-args](https://www.npmjs.com/package/@toolia/json-args) is very similar to this package, but its built-in argument parser doesn't support nested fields (`--foo.bar=baz` generates `{"foo.bar":"baz"}`).
+
 [yargs]: https://yargs.js.org/
 [fx]: https://www.npmjs.com/package/fx
 [jq]: https://stedolan.github.io/jq/
